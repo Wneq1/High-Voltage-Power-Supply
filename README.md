@@ -15,11 +15,13 @@ NOTE! THE FOLLOWING PROJECT INVOLVES VERY HIGH VOLTAGES THAT ARE DANGEROUS TO TH
 As I found an old flyback transformer in my drawer, I decided to find out what I could use it for, and quite quickly discovered that it could be used to generate high voltages. For the generator circuit, I decided to utilize the timeless NE555. I found information online about the frequency at which the flyback transformer operates, which is about 15kHz, and I decided to select the components accordingly for my generator. In the next part of the schematic, we see the circuit, or rather, the complementary driver controlling the gate of the keying MOSFET for the flyback transformer coil. As can be seen, for protection against overvoltages, a diode has been included in parallel with the primary winding, along with resistors.
 
 Power Supply Circuit Diagram:
+
 ![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/53c26956-a04a-405a-9484-5daf3c6c9708)
 
 As a voltage stabilizer, I used the classic 7812. By using this stabilizer, it would be possible to power both the executive module and our generator from a single power source with the appropriate current capacity (the stabilizer would cut off disturbances related to MOSFET keying). However, I decided to isolate these two voltages.
 
 Generator schematic:
+
 ![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/a16f5863-6202-4186-8eb0-0acf827b7141)
 
 
@@ -31,54 +33,18 @@ Astable multivibrator circuit based on NE555, operating in the range of 10kHz to
 (
 10.470
 �
-Ω
-+
-2
-×
-2
-�
-Ω
-)
-×
-10
-�
-�
-=
-9.952
- 
-kHz
-f= 
-(10.470kΩ+2×2kΩ)×10nF
-1.44
-​
- =9.952kHz
 
-�
-=
-1.44
-(
-0.470
-�
-Ω
-+
-2
-×
-2
-�
-Ω
-)
-×
-10
-�
-�
-=
-32.215
- 
-kHz
-f= 
-(0.470kΩ+2×2kΩ)×10nF
-1.44
-​
- =32.215kHz
 
 Executive module with a flyback transformer:
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/472ee2cd-0796-414f-920f-e39cdb869145)
+
+
+As we can see in our schematic, the signal after exiting the generator is fed into the complementary driver through resistor R3. The secondary driver circuit allows for greater current load capability of the MOSFET gate. Further along, we see a medium-power MOSFET IRF260 and a protection circuit to safeguard against overvoltages. It's important that the resistor connected in series with the diode is a high-power resistor due to the current flowing in the circuit. An important aspect is the number of windings wound on our flyback transformer. Online sources suggest 6-15 windings; in my project, I used 12 windings. During testing, the most optimal power supply parameters turned out to be 25V/4A. Operating under such parameters, the circuit maintained a temperature on the heatsink of less than 50 degrees Celsius for about 4 minutes.
+
+Briefly about the enclosure:
+I decided to use a plastic enclosure, in which I mounted a cable gland and built a "chamber" to separate the flyback transformer from the electronics using acrylic. I terminated the positive wire with a ring terminal and screwed it to the conductive part of the cable gland. As for the negative terminal, after prior identification, I connected it to a banana socket mounted on the rear panel of the enclosure. On the front panel, there are 4 banana sockets: two for powering the control circuit and two for powering the executive circuit. In addition to the power connectors on the front panel, there is a multi-turn potentiometer allowing us to fine-tune the operating frequency of our circuit. To improve airflow, I decided to use a small fan connected just after the 12V stabilizer. The entire board with components is soldered onto a single-sided prototyping board and secured to the enclosure using two M3 screws.
+
+View inside the device:
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/96d44486-1712-4e99-8bca-53a78b7c13d4)
