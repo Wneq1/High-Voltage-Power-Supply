@@ -5,10 +5,15 @@ High Voltage Power Supply
 Since I was a child, the sight of an electrical arc has always given me goosebumps and sparked immense curiosity about how to achieve such high voltage in my own workshop. Searching the internet, I found several schematics on how to build such a generator, but none of them met my expectations. So, I decided to combine a few readily available ones. My assumptions were:
 
 • Voltage above 10kV
+
 • Low costs (readily available parts)
+
 • Simple circuit design if possible
+
 • Utilization of a flyback transformer
+
 • No direct connection to the mains
+
 • As long-lasting operation as possible
 
 
