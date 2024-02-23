@@ -3,12 +3,14 @@ High Voltage Power Supply
 - BEWARE! HIGH VOLTAGE CIRCUITRY CAN BE LETHAL. DO NOT ATTEMPT TO REPLICATE WITHOUT PROPER KNOWLEDGE AND PRECAUTIONS. BY ATTEMPTING TO REPLICATE THIS CIRCUIT, YOU ASSUME ALL RISKS AND LIABILITIES ASSOCIATED WITH HIGH VOLTAGE EXPERIMENTATION.
 
 Since I was a child, the sight of an electrical arc has always given me goosebumps and sparked immense curiosity about how to achieve such high voltage in my own workshop. Searching the internet, I found several schematics on how to build such a generator, but none of them met my expectations. So, I decided to combine a few readily available ones. My assumptions were:
+
 • Voltage above 10kV
 • Low costs (readily available parts)
 • Simple circuit design if possible
 • Utilization of a flyback transformer
 • No direct connection to the mains
 • As long-lasting operation as possible
+
 
 NOTE! THE FOLLOWING PROJECT INVOLVES VERY HIGH VOLTAGES THAT ARE DANGEROUS TO THE USER'S LIFE AND HEALTH. IT IS DISCOURAGED FOR AMATEURS AND BEGINNERS WITHOUT PROPER EXPERIENCE TO ATTEMPT THIS PROJECT!!! BY CONSTRUCTING THIS CIRCUIT, YOU DO SO AT YOUR OWN RISK!
 
