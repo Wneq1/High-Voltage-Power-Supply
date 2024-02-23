@@ -27,12 +27,9 @@ Generator schematic:
 
 Astable multivibrator circuit based on NE555, operating in the range of 10kHz to 32kHz. The frequency selection is done using a precision 10k potentiometer. There is also the possibility of modulating our high voltage through audio sound. To achieve this, connect a 100nF capacitor to pin 5 of the NE555, followed by the modulating signal, preferably from an amplifier with a power of about 0.5-1.5 W.
 
-�
-=
-1.44
-(
-10.470
-�
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/43c45407-e12c-42fe-afeb-b986765f38aa)
+
 
 
 Executive module with a flyback transformer:
