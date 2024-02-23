@@ -48,3 +48,18 @@ I decided to use a plastic enclosure, in which I mounted a cable gland and built
 View inside the device:
 
 ![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/96d44486-1712-4e99-8bca-53a78b7c13d4)
+
+
+Device view:
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/0ab82661-69bd-47de-a9f3-06f17a045370)
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/4fc4c41b-3fd0-4eaf-8ec1-7d63981e803f)
+
+
+Here are some example effects of the device's operation:
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/44abc55d-11ec-4253-8d65-4970f7f21ce5)
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/bb7f0db5-8212-4e0b-a081-1b4223a0577b)
+
+![image](https://github.com/Wneq1/High-Voltage-Power-Supply/assets/127328405/829fe327-7aa0-4239-95c1-b4078a31a776)
